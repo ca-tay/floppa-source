@@ -12,7 +12,7 @@ local Floppa = UI.New({
     Title = "The famous flopper"
 })
 local NonFloppa = UI.New({
-    Title = "FE Converted Scripts"
+    Title = "FE Scripts"
 
 })
 local Credits = UI.New({
