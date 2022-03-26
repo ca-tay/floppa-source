@@ -40,6 +40,14 @@ NonFloppa.Button({
 })
 
 NonFloppa.Button({
+    Text = "Creeper",
+    Callback = function()
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/creeper.lua'),true))()
+ 
+    end
+})
+
+NonFloppa.Button({
     Text = "FE Chara Converted",
     Callback = function()
        loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/chara%20convert.lua'),true))()
@@ -57,7 +65,7 @@ NonFloppa.Button({
 Credits.Button({
         Text = "Click and press F9 for credits",
         Callback = function()
-            print('Oofhead, Perception, Emper')
+            print('Oofhead, Perception, Emper, Gelatek, ネイサン, Xen')
             end
         })
     local Victim = victim
