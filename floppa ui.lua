@@ -26,6 +26,7 @@ local Fling = UI.New({
 Floppa.Button({
     Text = "Coming soon!",
     Callback = function()
+            
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/floppa.lua'),true))()
         end
     
@@ -69,10 +70,11 @@ Credits.Button({
             end
         })
     
-    
+    local Victim = victim
     Fling.TextField({
         Text = "Name",
         Callback = function(victim)
+            
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/poo.lua'),true))()
 
     --C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(0,50,0)
