@@ -68,19 +68,12 @@ Credits.Button({
             print('Oofhead, Perception, Emper, Gelatek, ネイサン, Xen')
             end
         })
-    local Victim = victim
+    
     
     Fling.TextField({
         Text = "Name",
         Callback = function(Victim)
             loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/poo.lua'),true))()
-            wait(0.5)
-        local P=game:GetService'Players'.LocalPlayer
-local C=P.Character or P.CharacterAdded:Wait()
-game:GetService'RunService'.Heartbeat:Connect(function()
-    C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(game:GetService'Players':FindFirstChild(Victim).Character:WaitForChild'Head'.Position) * CFrame.new(0,-1,0) * CFrame.Angles(250,0,0) --loop this
-    wait(5)
-    loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
 
     --C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(0,50,0)
 
