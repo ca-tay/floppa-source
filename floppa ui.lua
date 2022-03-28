@@ -75,11 +75,11 @@ Credits.Button({
         Text = "Name",
         Callback = function(victim)
             
-           -- loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/poo.lua'),true))()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/poopyhead121/floppa-source/main/poo.lua'),true))()
 
     --C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(0,50,0)
 
  
-end)
+
 end
     })
