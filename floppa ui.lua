@@ -80,6 +80,5 @@ Credits.Button({
     --C:WaitForChild'HumanoidRootPart'.CFrame=CFrame.new(0,50,0)
 
  
-
 end
     })
