@@ -1,5 +1,7 @@
 --credits to chara for this convert
-game.Players:Chat("-gh 7170680556")
+if game.PlaceId == 5100950559 then -- checks if they are actually in just grass
+	game.Players:Chat("-gh 7170680556")
+end
 wait(0.3)
 _G.JitterlessMethod = true
 _G.DefaultFling = true
