@@ -1,2 +1,2 @@
-# floppa-source
-**IF YOU ARE GOING TO USE MY AND OTHER CONTRIBUTORS CODE PLEASE PROVIDE THE CREDITS, OTHERWISE YOU ARE A SKID!**
+# Floppa Hub
+If you would like to know what you are allowed to do with the code please refer to the LICENSE file in the github repository
